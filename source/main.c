@@ -61,6 +61,10 @@ int main(void) {
     // Sets timer to 1 second, and on
     TimerSet(1000);
     TimerOn();
+    
+    // init state and output
+    state = start;
+    PORTB = 0x00;
 
     /* Insert your solution below */
     while (1) {
