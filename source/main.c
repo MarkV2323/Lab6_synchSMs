@@ -54,28 +54,24 @@ void tick() {
 
 // Main Function using timer.h header
 int main(void) {
-    /* Insert DDR and PORT initializations */
+    
+    // PORTS
     DDRB = 0xFF; PORTB = 0x00; // PortB as output
 
     // Sets timer to 1 second, and on
     TimerSet(1000);
     TimerOn();
 
-    unsigned char tmpB = 0x00;
-
     /* Insert your solution below */
     while (1) {
-        // User Code
-        tmpB = ~tmpB; // Toogles PortB
-        PORTB = tmpB; // writes output
         
         // tick
+        tick();
+
         // wait 1 sec
         while (!TimerFlag);
 
         TimerFlag = 0;
-        // This example doesn't use a synchSM, should use one with TickSM()
-        // showcases use of ISR and flag
     }
 
     return 1;
