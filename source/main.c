@@ -20,6 +20,7 @@
 enum States{start, init} state;
 
 // Globals
+unsigned int tmpA = 0x00;
 
 // Tick Function
 void tick() {
