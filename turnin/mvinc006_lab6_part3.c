@@ -2,7 +2,7 @@
  *  Partner(s) Name: NA
  *	Lab Section: A01
  *	Assignment: Lab #6  Exercise #3
- *	Youtube Link: 
+ *	Youtube Link: https://youtu.be/MxQY58C0p2s
  *  Exercise Description:
  *
  *  Take an old lab an add a timer to it.
