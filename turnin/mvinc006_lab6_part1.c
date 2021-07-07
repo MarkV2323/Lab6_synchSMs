@@ -2,7 +2,7 @@
  *  Partner(s) Name: 
  *	Lab Section:
  *	Assignment: Lab #6  Exercise #1
- *	Youtube Link: 
+ *	Youtube Link: https://youtu.be/Vgz_fhEUanc
  *  Exercise Description:
  *
  *  Blink LEDs B0, B1, B2 in a sequence, 1 second each.
