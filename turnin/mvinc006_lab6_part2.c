@@ -2,7 +2,7 @@
  *  Partner(s) Name: NA
  *	Lab Section: A01
  *	Assignment: Lab #6  Exercise #2
- *	Youtube Link: 
+ *	Youtube Link: https://youtu.be/xp0h6Eushsk
  *  Exercise Description:
  *
  *  Create a simple light game.
